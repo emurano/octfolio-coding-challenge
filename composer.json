@@ -1,0 +1,19 @@
+{
+  "name": "ericmurano/octfolio",
+  "type": "project",
+  "description": "Eric Murano's submission for Octfolio's coding challenge",
+  "autoload": {
+    "psr-4": {
+      "EricMurano\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EricMurano\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "php": ">=7.4"
+  }
+}

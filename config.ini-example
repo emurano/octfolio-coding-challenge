@@ -1,0 +1,6 @@
+database.type=mysql
+database.host=localhost
+database.port=3306
+database.user=dbuser
+database.password=dbpass
+database.name=data_testing

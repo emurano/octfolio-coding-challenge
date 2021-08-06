@@ -1,0 +1,64 @@
+.TransactionTable {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.TransactionTable,
+.TransactionTable th,
+.TransactionTable td
+{
+    border: 1px solid #ccc;
+}
+
+
+.TransactionTable th,
+.TransactionTable td
+{
+    padding: 0.4em;
+}
+
+.TransactionTable tbody > tr:nth-child(odd) {
+    background-color: #E7E7E7FF;
+}
+
+.TransactionTable thead > tr {
+    border-bottom: 2px solid #595959;
+}
+
+.BottomRow,
+.TopRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25em;
+}
+
+.TopRow {
+    margin-bottom: 0.25em;
+}
+
+.BottomRow {
+    margin-top: 0.25em;
+}
+
+.Loading {
+    animation: opacity-breathing 2s ease infinite;
+}
+
+@keyframes opacity-breathing {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+.Paging {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}

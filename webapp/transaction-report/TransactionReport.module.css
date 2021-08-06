@@ -1,0 +1,64 @@
+.TransactionReport {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.TransactionReport,
+.TransactionReport th,
+.TransactionReport td
+{
+    border: 1px solid #ccc;
+}
+
+
+.TransactionReport th,
+.TransactionReport td
+{
+    padding: 0.4em;
+}
+
+.TransactionReport tbody > tr:nth-child(odd) {
+    background-color: #E7E7E7FF;
+}
+
+.TransactionReport thead > tr {
+    border-bottom: 2px solid #595959;
+}
+
+.BottomRow,
+.TopRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25em;
+}
+
+.TopRow {
+    margin-bottom: 0.25em;
+}
+
+.BottomRow {
+    margin-top: 0.25em;
+}
+
+.Loading {
+    animation: opacity-breathing 2s ease infinite;
+}
+
+@keyframes opacity-breathing {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+.Paging {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
